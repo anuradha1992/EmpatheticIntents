@@ -43,10 +43,11 @@ The original EmpatheticDialogues dataset can be downloaded from: [github.com/fac
 
 The repository contains the following datasets:
 
-1. ***lexically_extended_intent_data***: Listener utterances corresponding to the most frequent intents found by searching through the dataset using words and phrases that are most indicative of each intent. 
-2. ***train_data***: The train, validation and test sets used to train and evaluate the BERT transformer based classifier. They consists of situation descriptions tagged with emotion labels and randomly selected subset of listener utterances tagged with intent labels (this subset is randomly chosen from ***lexically_extended_intent_data*** so that the train, validation and test sets are balanced more or less equally across all the labels).
-3. ***empatheticdialogues_unannotated***: EmpatheticDialogues dataset processed into different csv files based on the emotion the dialogues are conditioned on
-4. ***empatheticdialogues_annotated***: EmpatheticDialogues dataset automatically annotated with output from the BERT transformer based classifier
+1. ***manual_annotations***: Listener utterances manually annotated with intent labels
+2. ***lexically_extended_intent_data***: Listener utterances corresponding to the most frequent intents found by searching through the dataset using words and phrases that are most indicative of each intent. 
+3. ***train_data***: The train, validation and test sets used to train and evaluate the BERT transformer based classifier. They consists of situation descriptions tagged with emotion labels and randomly selected subset of listener utterances tagged with intent labels (this subset is randomly chosen from ***lexically_extended_intent_data*** so that the train, validation and test sets are balanced more or less equally across all the labels).
+4. ***empatheticdialogues_unannotated***: EmpatheticDialogues dataset processed into different csv files based on the emotion the dialogues are conditioned on
+5. ***empatheticdialogues_annotated***: EmpatheticDialogues dataset automatically annotated with output from the BERT transformer based classifier
 
 ### Dependencies
 
