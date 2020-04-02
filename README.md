@@ -48,6 +48,17 @@ The repository contains the following datasets:
 3. ***empatheticdialogues_unannotated***: EmpatheticDialogues dataset processed into different csv files based on the emotion the dialogues are conditioned on
 4. ***empatheticdialogues_annotated***: EmpatheticDialogues dataset automatically annotated with output from the BERT transformer based classifier
 
+### Dependencies
+
+Following are the versions of python packages the code has been tested on.
+
+- numpy (1.18.2)
+- tensorflow (2.2.0rc2)
+- tensorflow-gpu (2.1.0)
+- pytorch-transformers (1.2.0)
+- h5py (2.10.0)
+- pyyaml (3.13)
+
 ### Bibliography
 
 Hannah Rashkin, Eric Michael Smith, Margaret Li and Y-Lan Boureau. 2019.  Towards Empathetic Open-domain Conversation  Models:  A  New  Benchmark  and  Dataset.   In *Proceedings  of  the  57th  Annual  Meeting  of  the Association for Computational Linguistics*, pages 5370–5381, Florence, Italy.
