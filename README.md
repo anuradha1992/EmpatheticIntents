@@ -2,7 +2,7 @@
 
 ### Introduction
 
-In empathetic conversations, the speaker often carries a certain emotion, however, the listener being empathetic does not necessarily need to carry a specific emotion. Instead, it can be a question or an expression of acknowledgement or agreement. By manually analyzing a subset of listener utterances in the EmpatheicDialogues datasets, it was discovered specific means or intents that a listener uses to express his empathy towards the speaker. The following are the most frequent intents that were discovered:
+In empathetic human social conversations, the speaker often carries a certain emotion, however, the listener being empathetic does not necessarily carry a specific emotion. Instead, by means of a question or an expression of acknowledgement or agreement, a listener can show his empathy towards the other person. By manually analyzing a subset of listener utterances in the EmpatheicDialogues datasets (Rashkin et al., 2019) containing 25K empathetic human coversations, we discovered specific means or intents that a listener uses to express his empathy towards the speaker. The following are the most frequent intents that were discovered:
 
 1.  Questioning (to know further details orclarify) e.g. Whatare you looking forward to?
 
@@ -19,6 +19,8 @@ In empathetic conversations, the speaker often carries a certain emotion, howeve
 7. Suggesting e.g. Maybeyou two shouldgo to the pet storeto try and find a new dog for him!
 
 8. Wishing e.g. Hey... congratulations to you on bothfronts!
+
+We have extended the number of examples per each intent by searching through the rest of the dataset using words and phrases that are most indicative of the intent. For example, words and phrases such as *100%*, *exactly*, *absolutely*, *definitely*, *i agree*, *me neither*, *me too* and *i completely understand* are indicative of the category *Agreeing*.
 
 ### BERT transformer based classifier for EmpatheticDialogues.
 
