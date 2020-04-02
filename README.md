@@ -22,6 +22,10 @@ In empathetic human social conversations, the speaker often carries a certain em
 
 We have extended the number of examples per each intent by searching through the rest of the dataset using words and phrases that are most indicative of the intent. For example, words and phrases such as *100%*, *exactly*, *absolutely*, *definitely*, *i agree*, *me neither*, *me too* and *i completely understand* are indicative of the category *Agreeing*.
 
+Using those categories as well as situation descriptions in EmpatheticDialogues tagged with 32 emotion categories, we trained and tested a BERT transformer based classifier to automatically annotate all the 25K conversations in the EmpatheticDialogues dataset. 
+
+This repository contains the code used to train and evaluate the classifier, the datasets used and the annotated results.  
+
 ### BERT transformer based classifier for EmpatheticDialogues.
 
 Given a dialogue utterance, the classifier annotates it with one out of a list of labels containing 33 emotions including neutral and 8 response intents. The classifier is trained and tested on the EmpatheticDialogues dataset introduced by Rashkin et al (2019).  
