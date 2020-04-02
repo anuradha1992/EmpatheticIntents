@@ -6,9 +6,9 @@ In empathetic human social conversations, the speaker often carries a certain em
 
 1. **Questioning** (to know further details orclarify) e.g. *What are you looking forward to?*
 
-2. **Acknowledging**  (Admitting  as  beingfact) e.g. *That  sounds like double  good  news.   It was  probably fun having  your  hard  workrewarded*
+2. **Acknowledging**  (Admitting  as  beingfact) e.g. *That  sounds like double  good  news.   It was  probably fun having  your  hard  work rewarded*
 
-3. **Consoling** e.g. *I hopehe gets the help he needs.*
+3. **Consoling** e.g. *I hope he gets the help he needs.*
 
 4. **Agreeing** (Thinking/Saying the same) e.g. *That’s a great feeling, I agree!*
 
