@@ -60,10 +60,10 @@ Following are the versions of python packages the code has been tested on.
 - h5py (2.10.0)
 - pyyaml (3.13)
 
-### Bibliography
-
-Hannah Rashkin, Eric Michael Smith, Margaret Li and Y-Lan Boureau. 2019.  Towards Empathetic Open-domain Conversation  Models:  A  New  Benchmark  and  Dataset.   In *Proceedings  of  the  57th  Annual  Meeting  of  the Association for Computational Linguistics*, pages 5370–5381, Florence, Italy.
-
 ### Acknowledgements
 
 This is a project carried out by the [Human Computer Interaction Group](https://hci.epfl.ch/) at the School of Computer and Communication Sciences, EPFL, Switzerland. Special thanks goes to [Dr. Pearl Pu](https://hci.epfl.ch/members/pearl/) for her supervision on this project and PhD student, [Yubo Xie](https://hci.epfl.ch/members/yubo/) for initial compilation of the code. 
+
+### Bibliography
+
+Hannah Rashkin, Eric Michael Smith, Margaret Li and Y-Lan Boureau. 2019.  Towards Empathetic Open-domain Conversation  Models:  A  New  Benchmark  and  Dataset.   In *Proceedings  of  the  57th  Annual  Meeting  of  the Association for Computational Linguistics*, pages 5370–5381, Florence, Italy.
