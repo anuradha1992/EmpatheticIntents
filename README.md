@@ -4,9 +4,9 @@
 
 In empathetic human social conversations, the speaker often carries a certain emotion, however, the listener being empathetic does not necessarily carry a specific emotion. Instead, by means of a question or an expression of acknowledgement or agreement, a listener can show his empathy towards the other person. By manually analyzing a subset of listener utterances in the EmpatheicDialogues datasets (Rashkin et al., 2019) containing 25K empathetic human coversations, we discovered specific means or intents that a listener uses to express his empathy towards the speaker. The following are the most frequent intents that were discovered:
 
-1. **Questioning** (to know further details orclarify) e.g. *Whatare you looking forward to?*
+1. **Questioning** (to know further details orclarify) e.g. *What are you looking forward to?*
 
-2. **Acknowledging**  (Admitting  as  beingfact) e.g. *That  sounds likedouble  good  news.   It was  probably fun having  your  hard  workrewarded*
+2. **Acknowledging**  (Admitting  as  beingfact) e.g. *That  sounds like double  good  news.   It was  probably fun having  your  hard  workrewarded*
 
 3. **Consoling** e.g. *I hopehe gets the help he needs.*
 
