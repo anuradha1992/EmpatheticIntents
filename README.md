@@ -1,8 +1,6 @@
 # EmpatheticIntents
 
-### BERT transformer based classifier for EmpatheticDialogues.
-
-Given a dialogue utterance, the classifier labels it with one of 32 emotions or 9 intents. The classifier is trained and tested on the EmpatheticDialogues dataset introduced by Rashkin et al (2019).  
+### Introduction
 
 In empathetic conversations, the speaker often carries a certain emotion, however, the listener being empathetic does not necessarily need to carry a specific emotion. Instead, it can be a question or an expression of acknowledgement or agreement. By manually analyzing a subset of listener utterances in the EmpatheicDialogues datasets, it was discovered specific means or intents that a listener uses to express his empathy towards the speaker. The following are the most frequent intents that were discovered:
 
@@ -21,6 +19,10 @@ In empathetic conversations, the speaker often carries a certain emotion, howeve
 7. Suggesting e.g. Maybeyou two shouldgo to the pet storeto try and find a new dog for him!
 
 8. Wishing e.g. Hey... congratulations to you on bothfronts!
+
+### BERT transformer based classifier for EmpatheticDialogues.
+
+Given a dialogue utterance, the classifier annotates it with one out of a list of labels containing 33 emotions including neutral and 8 response intents. The classifier is trained and tested on the EmpatheticDialogues dataset introduced by Rashkin et al (2019).  
 
 - Preparing training data: Preparing_Training_Data_EmoBERT_with_Intents.ipynb
 - Load weights: Load_weights_Emobert_with_intents.ipynb
