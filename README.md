@@ -47,3 +47,7 @@ The repository contains the following datasets:
 2. ***train_data***: The train, validation and test sets used to train and evaluate the BERT transformer based classifier. They consists of situation descriptions tagged with emotion labels and randomly selected subset of listener utterances tagged with intent labels (this subset is randomly chosen from ***lexically_extended_intent_data*** so that the train, validation and test sets are balanced more or less equally across all the labels).
 3. ***empatheticdialogues_unannotated***: EmpatheticDialogues dataset processed into different csv files based on the emotion the dialogues are conditioned on
 4. ***empatheticdialogues_annotated***: EmpatheticDialogues dataset automatically annotated with output from the BERT transformer based classifier
+
+### Bibliography
+
+Hannah Rashkin, Eric Michael Smith, Margaret Li and Y-Lan Boureau. 2019.  Towards Empathetic Open-domain Conversation  Models:  A  New  Benchmark  and  Dataset.   In *Proceedings  of  the  57th  Annual  Meeting  of  the Association for Computational Linguistics*, pages 5370–5381, Florence, Italy.
