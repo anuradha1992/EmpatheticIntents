@@ -4,21 +4,21 @@
 
 In empathetic human social conversations, the speaker often carries a certain emotion, however, the listener being empathetic does not necessarily carry a specific emotion. Instead, by means of a question or an expression of acknowledgement or agreement, a listener can show his empathy towards the other person. By manually analyzing a subset of listener utterances in the EmpatheicDialogues datasets (Rashkin et al., 2019) containing 25K empathetic human coversations, we discovered specific means or intents that a listener uses to express his empathy towards the speaker. The following are the most frequent intents that were discovered:
 
-1. **Questioning** (to know further details orclarify) e.g. Whatare you looking forward to?
+1. **Questioning** (to know further details orclarify) e.g. *Whatare you looking forward to?*
 
-2. **Acknowledging**  (Admitting  as  beingfact) e.g. That  sounds likedouble  good  news.   It was  probably fun having  your  hard  workrewarded
+2. **Acknowledging**  (Admitting  as  beingfact) e.g. *That  sounds likedouble  good  news.   It was  probably fun having  your  hard  workrewarded*
 
-3. **Consoling** e.g. I hopehe gets the help he needs.
+3. **Consoling** e.g. *I hopehe gets the help he needs.*
 
-4. **Agreeing** (Thinking/Saying the same) e.g. That’s a great feeling, I agree!
+4. **Agreeing** (Thinking/Saying the same) e.g. *That’s a great feeling, I agree!*
 
-5. **Encouraging** e.g. Hopefullyyou  will  catch  those  greatdeals!
+5. **Encouraging** e.g. *Hopefully you  will  catch  those  great deals!*
 
-6. **Sympathizing** (Express feeling pity orsorrow for the person in trouble) e.g. So sorry to hearthat.
+6. **Sympathizing** (Express feeling pity orsorrow for the person in trouble) e.g. *So sorry to hear that.*
 
-7. **Suggesting** e.g. Maybeyou two shouldgo to the pet storeto try and find a new dog for him!
+7. **Suggesting** e.g. *Maybe you two should go to the pet store to try and find a new dog for him!*
 
-8. **Wishing** e.g. Hey... congratulations to you on bothfronts!
+8. **Wishing** e.g. *Hey... congratulations to you on both fronts!*
 
 We have extended the number of examples per each intent by searching through the rest of the dataset using words and phrases that are most indicative of the intent. For example, words and phrases such as *100%*, *exactly*, *absolutely*, *definitely*, *i agree*, *me neither*, *me too* and *i completely understand* are indicative of the category *Agreeing*.
 
@@ -32,7 +32,8 @@ Given a dialogue utterance, the classifier annotates it with one out of a list o
 
 The pretrained weights necessary to initiate the model prior to training can be downloaded from: [drive.google.com/drive/folders/1KvTt1aK2a2JFKR_YcGaQnc_eNKW-qAos?usp=sharing](https://drive.google.com/drive/folders/1KvTt1aK2a2JFKR_YcGaQnc_eNKW-qAos?usp=sharing)
 
-All the model checkpoints can be downloaded from: [drive.google.com/drive/folders/12S9BDbFZYy8TZUV-0l4XCZTtC-KP_a2_?usp=sharing](https://drive.google.com/drive/folders/12S9BDbFZYy8TZUV-0l4XCZTtC-KP_a2_?usp=sharing)
+All the model checkpoints can be downloaded from: 
+[drive.google.com/drive/folders/12S9BDbFZYy8TZUV-0l4XCZTtC-KP_a2_?usp=sharing](https://drive.google.com/drive/folders/12S9BDbFZYy8TZUV-0l4XCZTtC-KP_a2_?usp=sharing)
 
 The checkpoint 5 was giving the highest accuracy on the test set.
 
