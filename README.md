@@ -63,3 +63,7 @@ Following are the versions of python packages the code has been tested on.
 ### Bibliography
 
 Hannah Rashkin, Eric Michael Smith, Margaret Li and Y-Lan Boureau. 2019.  Towards Empathetic Open-domain Conversation  Models:  A  New  Benchmark  and  Dataset.   In *Proceedings  of  the  57th  Annual  Meeting  of  the Association for Computational Linguistics*, pages 5370–5381, Florence, Italy.
+
+### Acknowledgements
+
+This is project carried out by the Human Computer Interaction Group at the School of Computer and Communication Sciences (IC) at EPFL, Switzerland.
