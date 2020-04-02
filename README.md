@@ -66,4 +66,4 @@ Hannah Rashkin, Eric Michael Smith, Margaret Li and Y-Lan Boureau. 2019.  Toward
 
 ### Acknowledgements
 
-This is project carried out by the [Human Computer Interaction Group](https://hci.epfl.ch/) at the School of Computer and Communication Sciences, EPFL, Switzerland. Special thanks goes to (Dr. Pearl Pu)[https://hci.epfl.ch/members/pearl/] for her supervision on this project and PhD student, (Yubo Xie)[https://hci.epfl.ch/members/yubo/] for initial compilation of the code. 
+This is project carried out by the [Human Computer Interaction Group](https://hci.epfl.ch/) at the School of Computer and Communication Sciences, EPFL, Switzerland. Special thanks goes to [Dr. Pearl Pu](https://hci.epfl.ch/members/pearl/) for her supervision on this project and PhD student, [Yubo Xie](https://hci.epfl.ch/members/yubo/) for initial compilation of the code. 
