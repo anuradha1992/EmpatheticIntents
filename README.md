@@ -66,4 +66,4 @@ Hannah Rashkin, Eric Michael Smith, Margaret Li and Y-Lan Boureau. 2019.  Toward
 
 ### Acknowledgements
 
-This is project carried out by the Human Computer Interaction Group at the School of Computer and Communication Sciences (IC) at EPFL, Switzerland.
+This is project carried out by the [Human Computer Interaction Group](https://hci.epfl.ch/) at the School of Computer and Communication Sciences, EPFL, Switzerland.
