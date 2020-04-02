@@ -30,13 +30,19 @@ This repository contains the code used to train and evaluate the classifier, the
 
 Given a dialogue utterance, the classifier annotates it with one out of a list of labels containing 33 emotions including neutral and 8 response intents. The classifier is trained and tested on the EmpatheticDialogues dataset introduced by Rashkin et al (2019).  
 
-- Preparing training data: Preparing_Training_Data_EmoBERT_with_Intents.ipynb
-- Load weights: Load_weights_Emobert_with_intents.ipynb
-- Train: Training_Emobert_with_intents.ipynb
-- Apply: Applying_on_EmpatheticDialogues_EmoBERT_with_intents.ipynb 
-
-Pretrained weights can be downloaded from: [drive.google.com/drive/folders/1KvTt1aK2a2JFKR_YcGaQnc_eNKW-qAos?usp=sharing](https://drive.google.com/drive/folders/1KvTt1aK2a2JFKR_YcGaQnc_eNKW-qAos?usp=sharing)
+The pretrained weights necessary to initiate the model prior to training can be downloaded from: [drive.google.com/drive/folders/1KvTt1aK2a2JFKR_YcGaQnc_eNKW-qAos?usp=sharing](https://drive.google.com/drive/folders/1KvTt1aK2a2JFKR_YcGaQnc_eNKW-qAos?usp=sharing)
 
 All the model checkpoints can be downloaded from: [drive.google.com/drive/folders/12S9BDbFZYy8TZUV-0l4XCZTtC-KP_a2_?usp=sharing](https://drive.google.com/drive/folders/12S9BDbFZYy8TZUV-0l4XCZTtC-KP_a2_?usp=sharing)
 
-The checkpoint 5 was giving the highest accuracy on the test set. 
+The checkpoint 5 was giving the highest accuracy on the test set.
+
+### Datasets
+
+The original EmpatheticDialogues dataset can be downloaded from: [github.com/facebookresearch/EmpatheticDialogues](https://github.com/facebookresearch/EmpatheticDialogues).
+
+The repository contains the following datasets:
+
+1. lexically_extended_intent_data: Listener utterances corresponding to the most frequent intents found by searching through the dataset using words and phrases that are most indicative of each intent. 
+2. train_data: The train, validation and test sets used to train and evaluate the BERT transformer based classifier. They consists of situation descriptions tagged with emotion labels and randomly selected subset of listener utterances tagged with intent labels from the previous.
+1. empatheticdialogues_unannotated: EmpatheticDialogues dataset processed into different csv files based on the emotion the dialogues are conditioned on
+2. empatheticdialogues_annotated: EmpatheticDialogues dataset automatically annotated with output from the BERT transformer based classifier
